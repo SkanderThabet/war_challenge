@@ -17,9 +17,7 @@
 		01B1B209279DDA3F00DE12ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B1B1DF279DDA3E00DE12ED /* ContentView.swift */; };
 		01B1B20A279DDA3F00DE12ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B1B1E0279DDA3F00DE12ED /* Assets.xcassets */; };
 		01B1B20B279DDA3F00DE12ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B1B1E0279DDA3F00DE12ED /* Assets.xcassets */; };
-		01EECAC627B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EECAC327B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png */; };
-		01EECAC727B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EECAC427B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png */; };
-		01EECAC827B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EECAC527B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png */; };
+		01EECACA27B6EBE4004E0B26 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 01EECAC927B6EBE4004E0B26 /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +50,7 @@
 		01B1B1FE279DDA3F00DE12ED /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B1B202279DDA3F00DE12ED /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		01B1B204279DDA3F00DE12ED /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		01EECAC327B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png"; sourceTree = "<group>"; };
-		01EECAC427B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png"; sourceTree = "<group>"; };
-		01EECAC527B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png"; path = "../../../Desktop/Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png"; sourceTree = "<group>"; };
+		01EECAC927B6EBE4004E0B26 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +147,7 @@
 		01EECAC227B6EA42004E0B26 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				01EECAC527B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png */,
-				01EECAC327B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png */,
-				01EECAC427B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png */,
+				01EECAC927B6EBE4004E0B26 /* Screenshots */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -283,10 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01EECAC827B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.42.09.png in Resources */,
-				01EECAC727B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.50.01.png in Resources */,
-				01EECAC627B6EB51004E0B26 /* Simulator Screen Shot - iPhone 11 - 2022-02-11 at 19.43.06.png in Resources */,
 				01B1B20A279DDA3F00DE12ED /* Assets.xcassets in Resources */,
+				01EECACA27B6EBE4004E0B26 /* Screenshots in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
